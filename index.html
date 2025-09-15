@@ -4,29 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EcoDarpan</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome for social icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
 </head>
 <body>
-  <header>
-    <h1>🌱 EcoDarpan</h1>
-    <p>Together for Nature | Planting | Farming | Ecology</p>
-  </header>
 
-  <section class="social-links">
-    <a href="https://www.instagram.com/ecodarpan" target="_blank" class="instagram">
-      <i class="fab fa-instagram"></i> Instagram
-    </a>
-    <a href="https://www.youtube.com/@EcoDarpan" target="_blank" class="youtube">
-      <i class="fab fa-youtube"></i> YouTube
-    </a>
-  </section>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>🌍 EcoDarpan</h1>
+    <p>Planting today for a greener tomorrow</p>
+    <button class="btn" onclick="window.open('https://instagram.com/ecodarpan', '_blank')">Follow on Instagram</button>
+    <button class="btn" onclick="window.open('https://youtube.com/@ecodarpan', '_blank')">Watch on YouTube</button>
+  </div>
 
-  <section class="contact">
-    <h2>📬 Contact Us</h2>
-    <p><strong>Email:</strong> <a href="mailto:ecodarpan@gmail.com">ecodarpan@gmail.com</a></p>
-    <p><strong>Address:</strong> Bulandshahr, Uttar Pradesh</p>
-  </section>
+  <!-- Impact Counter -->
+  <div class="counter">
+    <h2>🌱 Trees Planted: <span id="treeCount">7542</span></h2>
+  </div>
+
+  <!-- YouTube Latest Video -->
+  <div class="videos">
+    <h2>🎥 Our Latest Video</h2>
+    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=EcoDarpan" allowfullscreen></iframe>
+  </div>
+
 </body>
 </html>
