@@ -8,18 +8,71 @@
 </head>
 <body>
 
+  <!-- Header -->
+  <header>
+    <div class="logo">🌍 EcoDarpan</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <!-- Hero Section -->
-  <div class="hero">
-    <h1>🌍 EcoDarpan</h1>
-    <p>Planting today for a greener tomorrow</p>
+  <section id="hero" class="hero">
+    <h1>Planting Today for a Greener Tomorrow</h1>
+    <p>Join our movement to create a sustainable future 🌱</p>
     <button class="btn" onclick="window.open('https://instagram.com/ecodarpan', '_blank')">Follow on Instagram</button>
     <button class="btn" onclick="window.open('https://youtube.com/@ecodarpan', '_blank')">Watch on YouTube</button>
-  </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>EcoDarpan is a movement dedicated to spreading awareness about the environment, 
+       climate change, organic farming, and village life. 
+       We believe in making small changes that create a big impact.</p>
+    <img src="about-image.jpg" alt="EcoDarpan Movement">
+  </section>
 
   <!-- Impact Counter -->
-  <div class="counter">
-    <h2>🌱 Trees Planted: <span id="treeCount">0070</span></h2>
-  </div>
+  <section id="impact" class="counter">
+    <h2>Our Impact</h2>
+    <p>🌱 Trees Planted So Far:</p>
+    <h3 id="treeCount">7542</h3>
+  </section>
+
+  <!-- Videos Section -->
+  <section id="videos" class="videos">
+    <h2>Latest Videos</h2>
+    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=EcoDarpan" allowfullscreen></iframe>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:contact@ecodarpan.in">contact@ecodarpan.in</a></p>
+    <p>Follow us on:
+      <a href="https://instagram.com/ecodarpan" target="_blank">Instagram</a> | 
+      <a href="https://youtube.com/@ecodarpan" target="_blank">YouTube</a>
+    </p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 EcoDarpan | All Rights Reserved</p>
+  </footer>
 
 </body>
 </html>
